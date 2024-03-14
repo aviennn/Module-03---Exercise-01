@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Black"
+             x:Class="Module03Layout.MainPage" Title="Avien Flaire C. Batul">
+
+    <StackLayout>
+
+        <StackLayout HeightRequest="230" />
+        <Label Text="Welcome to Module 03 Exercise 01 named Layout Activity!"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               TextColor="White"/>
+        <StackLayout HeightRequest="170" />
+        <Button Text="StackLayout Page" TextColor="White" BackgroundColor="DarkGoldenrod" Clicked="StackLayout_page"/>
+        <StackLayout HeightRequest="1" />
+        <Button Text="AbsoluteLayout Page" TextColor="White" BackgroundColor="DarkSlateGray" Clicked="AbsoluteLayout_page"/>
+        <StackLayout HeightRequest="1" />
+        <Button Text="RelativeLayout Page" TextColor="White" BackgroundColor="DarkGoldenrod" Clicked="RelativeLayout_page"/>
+        <StackLayout HeightRequest="1" />
+        <Button Text="Grid Page" TextColor="White" BackgroundColor="DarkSlateGray" Clicked="Grid_page"/>
+    </StackLayout>
+
+</ContentPage>
